@@ -1,6 +1,7 @@
 const express = require('express');
 
 const app = express();
+console.log('Teste de GitHub')
 
 app.get('/',(req, res)=>{
     res.send('Funcionouuuuuuuuuuu!!!')
